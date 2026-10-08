@@ -1,24 +1,16 @@
 import { ScrollView, StyleSheet, Text } from 'react-native';
-import Alunos from '../components/Alunos';
-import Funcionario from '../components/Funcionario';
-import Multiplicacao from '../components/Multiplicacao';
+import AlunoForm from '../components/AlunoForm';
+import MultiplicacaoForm from '../components/MultiplicacaoForm';
+import NomeSobrenome from '../components/NomeSobrenome';
 
 export default function Index() {
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <Text style={styles.saudacao}>Boa noite!</Text>
 
-      <Funcionario nome="Marcos Andrade" idade={33} setor="Financeiro" />
-
-      <Alunos
-        nome="Lucas Pereira"
-        idade={16}
-        turma="2º A"
-        nota1={8}
-        nota2={9.5}
-      />
-
-      <Multiplicacao valor1={4} valor2={5} valor3={3} />
+      <NomeSobrenome />
+      <AlunoForm />
+      <MultiplicacaoForm />
     </ScrollView>
   );
 }
