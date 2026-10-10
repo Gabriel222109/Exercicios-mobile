@@ -1,0 +1,86 @@
+// import { StyleSheet, View } from "react-native";
+
+// const ExemploStyle_View = () => {
+//     return (
+//         <>
+//             <View style={styles_local.container_fixo}>
+//                 <View style={[styles_local.fundo_azul, 
+//                     styles_local.tamanho_50, styles_local.borda]} />
+//                 <View style={[styles_local.fundo_laranja, 
+//                     styles_local.tamanho_50, styles_local.borda]} />
+//                 <View style={[styles_local.fundo_verde, 
+//                     styles_local.tamanho_50, styles_local.borda]} />
+//             </View>
+//             <View style={styles_local.container_flex}>
+//                 <View style={[styles_local.fundo_azul, 
+//                     styles_local.flex_pequeno, styles_local.borda]} />
+//                 <View style={[styles_local.fundo_laranja, 
+//                     styles_local.flex_grande, styles_local.borda]} />
+//                 <View style={[styles_local.fundo_verde, 
+//                     styles_local.flex_grande, styles_local.borda]} />
+//             </View>
+//         </>
+//     );
+// }
+
+// export default ExemploStyle_View;
+
+// const styles_local = StyleSheet.create({
+//     container_fixo: {
+//         //valor de preenchimento da área disponível
+//         flex: 1,
+//         //definição do eixo principal
+//         flexDirection: 'row',
+//         //posicionamento dos objetos no eixo principal
+//         justifyContent: 'center',
+//         //posicionamento dos objetos no eixo secundário
+//         alignItems: 'stretch',
+//         //cor de fundo
+//         backgroundColor: '#c7b516',
+//         //margem
+//         margin: 10,
+//     },
+//     container_flex: {
+//         //valor de preenchimento da área disponível
+//         flex: 1,
+//         //definição do eixo principal
+//         flexDirection: 'row',
+//         //cor de fundo
+//         backgroundColor: '#4604ee',
+//         //margem
+//         margin: 10,
+        
+//     },
+//     fundo_azul: {
+//         //cor de fundo
+//         backgroundColor: 'blue'
+//     },
+//     fundo_laranja: {
+//         //cor de fundo
+//         backgroundColor: 'white'
+//     },
+//     fundo_verde: {
+//         //cor de fundo
+//         backgroundColor: 'black'
+//     },
+//     tamanho_50: {
+//         //largura
+//         width: 40,
+//         //altura
+//         height: 60
+//     },
+//     flex_pequeno: {
+//         //valor de preenchimento da área disponível
+//         flex: 4
+//     },
+//     flex_grande: {
+//         //valor de preenchimento da área disponível
+//         flex: 4
+//     },
+//     borda: {
+//         //cor da borda
+//         borderColor: 'black',
+//         //espessura da borda
+//         borderWidth: 2
+//     }
+// });
