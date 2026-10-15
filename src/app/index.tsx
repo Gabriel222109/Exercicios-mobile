@@ -1,5 +1,6 @@
 import { ScrollView, StyleSheet, Text } from 'react-native';
 import AlunoForm from '../components/AlunoForm';
+import ListaAlunos from '../components/ListaAluno';
 import MultiplicacaoForm from '../components/MultiplicacaoForm';
 import NomeSobrenome from '../components/NomeSobrenome';
 
@@ -8,6 +9,7 @@ export default function Index() {
     <ScrollView contentContainerStyle={styles.container}>
       <Text style={styles.saudacao}>Boa noite!</Text>
 
+      <ListaAlunos />
       <NomeSobrenome />
       <AlunoForm />
       <MultiplicacaoForm />
