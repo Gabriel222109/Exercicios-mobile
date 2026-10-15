@@ -1,11 +1,16 @@
 import { ScrollView, StyleSheet, Text } from 'react-native';
-import Credito from '../components/Credito';
+import AlunoForm from '../components/AlunoForm';
+import MultiplicacaoForm from '../components/MultiplicacaoForm';
+import NomeSobrenome from '../components/NomeSobrenome';
 
 export default function Index() {
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      <Text style={styles.saudacao}>Análise de crédito</Text>
-      <Credito />
+      <Text style={styles.saudacao}>Boa noite!</Text>
+
+      <NomeSobrenome />
+      <AlunoForm />
+      <MultiplicacaoForm />
     </ScrollView>
   );
 }
